@@ -2,9 +2,11 @@
 
 ## Resumo
 
-Esse repositório é um fork do trabalho que pode ser encontrado no seguinte link: https://github.com/O-Luhishi/Python-Packet-Sniffer
+Esse repositório é um fork do trabalho que pode ser encontrado no seguinte link: 
+https://github.com/O-Luhishi/Python-Packet-Sniffer
 
-O software origina é um sniffer feito em Python, que busca monitora a rede em busca de pacotes Ethernet. Inicialmente somente para pacotes IPv4.
+O software original é um sniffer feito em Python, que busca monitorar a rede em busca de pacotes Ethernet. Inicialmente somente para pacotes IPv4.
+
 A ideia desse fork foi adicionar as seguintes funcionalidades:
 
 ## Novas funcionalidades
@@ -21,3 +23,11 @@ Packet Sniffer created in Python 3. Allows you to monitor traffic running throug
   - Python 3.x
   - Privileged/Administrative Rights
   - Linux or Windows Operating System
+
+
+## Exemplos
+  - Monitorando a rede 
+  Ao iniciar o software, você decide se quer monitorar a rede ou abrir um arquivo .pcap.
+  No exemplo decidimos monitorar a rede, então é solicitado o nome do arquivo para salvar os pacotes e também a quantidade pacotes a serem capturados.
+
+  ![Alt text](images/menu_inicial.png?raw=true "Menu")
