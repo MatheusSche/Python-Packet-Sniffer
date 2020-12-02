@@ -31,3 +31,10 @@ Packet Sniffer created in Python 3. Allows you to monitor traffic running throug
   No exemplo decidimos monitorar a rede, então é solicitado o nome do arquivo para salvar os pacotes e também a quantidade pacotes a serem capturados.
 
   ![Alt text](images/menu_inicial.png?raw=true "Menu")
+
+  - Arquivo .pcap e filtros
+  Ao abrir um .pcap, é possível apenas mostrar todo seu conteúdo, ou filtrar por parâmetros pré-estabelecidos no sistema.
+
+  ![Alt text](images/filters.png?raw=true "Filters")
+
+
