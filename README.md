@@ -26,7 +26,8 @@ Packet Sniffer created in Python 3. Allows you to monitor traffic running throug
 
 
 ## Exemplos
-  - Monitorando a rede 
+  - Monitorando a rede.
+
   Ao iniciar o software, você decide se quer monitorar a rede ou abrir um arquivo .pcap.
   No exemplo decidimos monitorar a rede, então é solicitado o nome do arquivo para salvar os pacotes e também a quantidade pacotes a serem capturados.
 
@@ -36,5 +37,27 @@ Packet Sniffer created in Python 3. Allows you to monitor traffic running throug
   Ao abrir um .pcap, é possível apenas mostrar todo seu conteúdo, ou filtrar por parâmetros pré-estabelecidos no sistema.
 
   ![Alt text](images/filters.png?raw=true "Filters")
+
+  - Formato de exibição dos pacotes no terminal
+
+  IPv4: UDP
+
+  ![Alt text](images/ipv4udp.png?raw=true "Filters")
+
+  IPv4: TCP
+
+  ![Alt text](images/ipv4tcp.png?raw=true "Filters")
+
+  IPv6: UDP
+
+  ![Alt text](images/ipv6udp.png?raw=true "Filters")
+
+  IPv6: TCP
+
+  ![Alt text](images/ipv6tcp.png?raw=true "Filters")
+
+  IPv6: ICMP
+
+  ![Alt text](images/ipv6icmp.png?raw=true "Filters")
 
 
